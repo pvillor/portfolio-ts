@@ -1,3 +1,3 @@
-import { Heading } from "@chakra-ui/react";
+import { Home } from "./pages/home";
 
-export const App = () => <Heading as='h1'>App</Heading>
+export const App = () => <Home />
