@@ -1,30 +1,30 @@
-export const techs = [
+export const skills = [
     {
         name: 'Front End',
         techs: [
             {
                 name: 'HTML',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
             },
             {
                 name: 'CSS',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
             },
             {
                 name: 'JavaScript',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
             },
             {
                 name: 'Typescript',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
             },
             {
                 name: 'React',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
             },
             {
                 name: 'Redux',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg'
             }
         ]
     },
@@ -33,27 +33,27 @@ export const techs = [
         techs: [
             {
                 name: 'Node.js',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
             },
             {
                 name: 'Express',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
             },
             {
                 name: 'PostgreSQL',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
             },
             {
                 name: 'Docker',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'
             },
             {
                 name: 'Python',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
             },
             {
                 name: 'Django',
-                logo: ''
+                logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'
             }
         ]
     }
