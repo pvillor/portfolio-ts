@@ -1,4 +1,4 @@
-import { Box, Center, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Heading, Link } from "@chakra-ui/react";
+import { Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Flex, Heading, Link } from "@chakra-ui/react";
 import { theme } from "../../styles/theme"
 
 interface MenuProps {
