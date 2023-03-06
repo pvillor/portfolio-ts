@@ -2,26 +2,59 @@ export const techs = [
     {
         name: 'Front End',
         techs: [
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Typescript',
-            'React',
-            'Redux',
-            'Context API',
-            'API REST'
+            {
+                name: 'HTML',
+                logo: ''
+            },
+            {
+                name: 'CSS',
+                logo: ''
+            },
+            {
+                name: 'JavaScript',
+                logo: ''
+            },
+            {
+                name: 'Typescript',
+                logo: ''
+            },
+            {
+                name: 'React',
+                logo: ''
+            },
+            {
+                name: 'Redux',
+                logo: ''
+            }
         ]
     },
     {
         name: 'Back End',
         techs: [
-            'Node.js',
-            'Express',
-            'TypeORM',
-            'PostgreSQL',
-            'Docker',
-            'Python',
-            'Django'
+            {
+                name: 'Node.js',
+                logo: ''
+            },
+            {
+                name: 'Express',
+                logo: ''
+            },
+            {
+                name: 'PostgreSQL',
+                logo: ''
+            },
+            {
+                name: 'Docker',
+                logo: ''
+            },
+            {
+                name: 'Python',
+                logo: ''
+            },
+            {
+                name: 'Django',
+                logo: ''
+            }
         ]
     }
 ]

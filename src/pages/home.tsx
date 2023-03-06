@@ -3,10 +3,8 @@ import { Header } from "../components/Header";
 
 export const Home = () => {
     return (
-        <>
         <Box>
             <Header />
         </Box>
-        </>
     )
 }
