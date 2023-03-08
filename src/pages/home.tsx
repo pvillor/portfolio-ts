@@ -1,9 +1,11 @@
-import { Box, Center, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Center, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 import ore from "../assets/ore.png"
 import frontend from "../assets/frontend.png"
 import fullstack from "../assets/fullstack.png"
 import { skills } from "../database/techs.db";
+import { projects } from "../database/projects.db";
+import { Card } from "../components/Card";
 
 
 export const Home = () => {
@@ -41,6 +43,9 @@ export const Home = () => {
                     <Image src={frontend} w='500px' h='350px'/>
                     <Image src={fullstack} w='500px' h='350px'/>
                 </Flex>
+                <Grid w='100%' templateColumns='repeat(auto-fill, minmax(420px, 1fr)' gap={10} paddingX='8' mt='8'>
+                    {[1, 2, 3].map(_ => <Card />) }
+                </Grid>
             </Center>
         </Box>
     )
