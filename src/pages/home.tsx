@@ -1,14 +1,16 @@
 import { Box, Center, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { Header } from "../components/Header";
 import ore from "../assets/ore.png"
+import frontend from "../assets/frontend.png"
+import fullstack from "../assets/fullstack.png"
 import { skills } from "../database/techs.db";
 
 
 export const Home = () => {
     return (
-        <Box bgColor='gray.900' color='gray.50' h='100vh'>
+        <Box bgColor='gray.900' color='gray.50'>
             <Header />
-            <Center display='flex' flexDirection='column' w='100%' justifyContent='space-evenly'>
+            <Center display='flex' flexDirection='column' w='100%' justifyContent='space-evenly' mt='10px'>
                 <Heading as='h2' size='xl'>Sobre mim</Heading>
                 <Flex w='100%' alignItems='center' justifyContent='space-evenly'>
                     <Image src={ore} w='200px' h='250px' borderRadius='50%' border='solid black'/>
@@ -33,6 +35,11 @@ export const Home = () => {
                             </Box>
                         )
                     })}
+                </Flex>
+                <Heading as='h2' size='xl' mt='15px'>Certificações</Heading>
+                <Flex w='80%' h='50vh' mt='15px' alignItems='center' justifyContent='space-evenly' flexWrap='wrap'>
+                    <Image src={frontend} w='500px' h='350px'/>
+                    <Image src={fullstack} w='500px' h='350px'/>
                 </Flex>
             </Center>
         </Box>
