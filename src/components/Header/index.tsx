@@ -6,8 +6,8 @@ import { theme } from "../../styles/theme"
 export const Header = () => {
     const { isOpen, onClose, onToggle } = useDisclosure()
     return (
-        <Flex borderBottom='1px' borderBottomColor='#f5f5f5' paddingX='8' paddingY='2'>
-            <Heading ml='4' size='lg'>Villo</Heading>
+        <Flex borderBottom='1px' borderBottomColor='purple.800' paddingX='8' paddingY='2'>
+            <Heading ml='4' size='lg'>Paulo Victor Guerra</Heading>
             <Center ml='auto' onClick={onToggle} as='button' fontSize='2rem'>
                 <FaTh color={theme.colors.gray[300]}/>
             </Center>

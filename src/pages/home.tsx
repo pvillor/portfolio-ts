@@ -3,14 +3,10 @@ import { Header } from "../components/Header";
 import ore from "../assets/ore.png"
 import { skills } from "../database/techs.db";
 
-interface TechsProps {
-    name: string,
-    techs: [],
-}
 
 export const Home = () => {
     return (
-        <Box>
+        <Box bgColor='gray.900' color='gray.50' h='100vh'>
             <Header />
             <Center display='flex' flexDirection='column' w='100%' justifyContent='space-evenly'>
                 <Heading as='h2' size='xl'>Sobre mim</Heading>

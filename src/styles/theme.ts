@@ -44,8 +44,8 @@ export const theme = extendTheme({
         styles: {
             global: {
                 body: {
-                    bg: 'white',
-                    color: 'gray.900',
+                    bg: 'gray.900',
+                    color: 'white',
                 },
             },
         },
