@@ -43,9 +43,10 @@ export const Home = () => {
                     <Image src={frontend} w='500px' h='350px'/>
                     <Image src={fullstack} w='500px' h='350px'/>
                 </Flex>
-                <Grid w='100%' templateColumns='repeat(auto-fill, minmax(420px, 1fr)' gap={10} paddingX='8' mt='8'>
-                    {[1, 2, 3].map(_ => <Card />) }
-                </Grid>
+                <Heading as='h2' size='xl' mt='15px' mb='2'>Projetos</Heading>
+                <Flex w='90%' justifyContent='space-between' flexWrap='wrap' paddingX='8'  mb='8'>
+                    {projects.map(project => <Card name={project.name} isWebPage={project.isWebPage} description={project.description} techs={project.techs} repository={project.repository} visit={project.visit}/>) }
+                </Flex>
             </Center>
         </Box>
     )
