@@ -1,5 +1,4 @@
-import { Box, Center, Flex, Grid, Heading, Image, Text } from "@chakra-ui/react";
-import { Header } from "../components/Header";
+import { Box, Center, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import ore from "../assets/ore.png"
 import frontend from "../assets/frontend.png"
 import fullstack from "../assets/fullstack.png"
@@ -10,8 +9,6 @@ import { Card } from "../components/Card";
 
 export const Home = () => {
     return (
-        <Box bgColor='gray.900' color='gray.50'>
-            <Header />
             <Center display='flex' flexDirection='column' w='100%' justifyContent='space-evenly' mt='10px'>
                 <Heading as='h2' size='xl'>Sobre mim</Heading>
                 <Flex w='100%' alignItems='center' justifyContent='space-evenly'>
@@ -48,6 +45,5 @@ export const Home = () => {
                     {projects.map(project => <Card name={project.name} isWebPage={project.isWebPage} description={project.description} techs={project.techs} repository={project.repository} visit={project.visit}/>) }
                 </Flex>
             </Center>
-        </Box>
     )
 }
