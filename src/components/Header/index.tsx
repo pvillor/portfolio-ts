@@ -1,17 +1,14 @@
-import { Center, Flex, Heading, useDisclosure } from "@chakra-ui/react"
-import { Menu } from "./Menu"
-import { FaTh } from "react-icons/fa"
-import { theme } from "../../styles/theme"
+import { Center, Flex, Heading, Image, Link } from "@chakra-ui/react"
 
 export const Header = () => {
-    const { isOpen, onClose, onToggle } = useDisclosure()
+
     return (
         <Flex borderBottom='1px' borderBottomColor='purple.800' paddingX='8' paddingY='2'>
             <Heading ml='4' size='lg'>Paulo Victor Guerra</Heading>
-            <Center ml='auto' onClick={onToggle} as='button' fontSize='2rem'>
-                <FaTh color={theme.colors.gray[300]}/>
+            <Center ml='auto'>
+                <Link href='https://www.linkedin.com/in/paulovictorguerra'><Image src='https://img.shields.io/badge/-LinkedIn-%23007785?style=for-the-badge&logo=linkedin&logoColor=white' /></Link>
+                <Link href='mailto:pvillor@gmail.com'><Image src='https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white' /></Link>
             </Center>
-            <Menu isOpen={isOpen} onClose={onClose}/>
         </Flex>
     )
 }

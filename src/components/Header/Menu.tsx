@@ -14,19 +14,19 @@ export const Menu = ({ isOpen, onClose }: MenuProps) => {
                 <DrawerHeader borderBottomWidth='1px' borderColor='purple.700' bgColor='gray.900' color='gray.300'>Menu</DrawerHeader>
                 <DrawerBody bgColor='gray.900'>
                     <Flex align='center' flexDirection='column' mt='10px'>
-                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
+                        <Link href='/aboutMe' ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
                             <Heading as='h2' fontSize='lg' textAlign='center' mt='1' color='#f5f5f5'>Sobre mim</Heading>
                         </Link>
-                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
+                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
                             <Heading as='h2' fontSize='lg' textAlign='center' mt='1' color='#f5f5f5'>Tecnologias</Heading>
                         </Link>
-                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
+                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='#sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
                             <Heading as='h2' fontSize='lg' textAlign='center' mt='1' color='#f5f5f5'>Certificações</Heading>
                         </Link>
-                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
+                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='#sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
                             <Heading as='h2' fontSize='lg' textAlign='center' mt='1' color='#f5f5f5'>Projetos</Heading>
                         </Link>
-                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
+                        <Link ml='4' marginBottom='4' bgColor={theme.colors.purple[500]} href='#sobreMim' w='100%' h='30px' borderRadius='5px' _hover={{cursor: 'pointer', bgColor: theme.colors.purple[600]}}>
                             <Heading as='h2' fontSize='lg' textAlign='center' mt='1' color='#f5f5f5'>Contato</Heading>
                         </Link>
                     </Flex>
